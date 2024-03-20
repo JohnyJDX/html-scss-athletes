@@ -80,6 +80,22 @@ html {
 		font-size: 18px;
 		color: #000;
 	}
+
+	.sport {
+		&::after {
+			content: ',';
+		}
+	}
+
+	.pay {
+		&::before {
+			content: '$';
+		}
+
+		&::after {
+			content: 'M';
+		}
+	}
 }
 
 .person:hover img {
